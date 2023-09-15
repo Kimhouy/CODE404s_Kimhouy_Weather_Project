@@ -1,32 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100;200;300;400;500;600;700&family=Gluten:wght@400;500;600;700;900&family=Open+Sans:wght@300&display=swap');
 
-body{
-  font-family: 'Alumni', sans-serif;
-  display: flex;
-  justify-content: center;
-  color: white;
-  background-color: black;
+body {
+    font-family: 'Alumni', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
 }
 
 .all-components {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
 }
 
-
 .area-section1 {
-  margin-top: 10%;
-  margin-bottom: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .main-temperature {
-  font-size: 64px;
-  font-weight: 600;
+    font-size: 64px;
+    font-weight: 600;
 }
 
 .current-region {
-  font-size: 24px;
+    font-size: 24px;
+}
+
+.area-section2 {
+    background-color: #8f8686;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 7%;
+    width: 1200px;
+}
+
+.current-temperature {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.current-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.current-timeperiod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area-section3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    gap: 30px;
+    margin-bottom: 10%;
+    width: 1200px;
+}
+
+.next-day {
+    background-color: #8f8686;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    border-radius: 30px;
 }
