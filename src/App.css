@@ -16,6 +16,21 @@ body {
     width: 80%;
 }
 
+.main-image {
+    width: 70%;
+    height: 70%;
+  }
+  
+  .sub-image1 {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .sub-image2 {
+  width: 40%;
+  height: 50%;
+  }
+
 .area-section1 {
     margin-top: 10%;
     margin-bottom: 10%;
