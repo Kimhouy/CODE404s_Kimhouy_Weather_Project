@@ -2,6 +2,8 @@
 * This project is initiated to encourage learning how to make real requests to see data, fetch data, and transform data to dispaly on the app, in the React project. 
 * This weather app provides access to forcasts that will help users to be alerted and informed about the changes in weather conditions;hence, the users can make decisons and deal with it accordingly. 
 
+# (Demo App](https://weather-host-sage.vercel.app/)[Demo App]
+
 ## 1. Project Overview
 The app is implemented based on Vitejs and React framework, style with CSS and other design/building tools such as:
 * Figma 
