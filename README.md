@@ -1,5 +1,5 @@
-# TodoList Project 
-* This project is initiated to encourage 
+# Weather Project 
+* This project is initiated to encourage learning how to make real requests to see data, fetch data, and transform data to dispaly on the app, in the React project.
 * This weather app provides access to forcasts that will help users to be alerted and informed about the changes in weather conditions;hence, the users can make decisons and deal with it accordingly. 
 
 ## 1. Project Overview
