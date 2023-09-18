@@ -12,10 +12,9 @@ The app is implemented based on Vitejs and React framework, style with CSS and o
 * Notation
 * github
 
-## External libraries needed to be installed:
-* React-Geolocated module: npm install react-geolocated
-* React-Axios module: npm install axios
-
+ ## External libraries needed to be installed:
+  * React-Geolocated module: npm install react-geolocated 
+  * React-Axios module: npm install axios 
 ## 2. Functions 
  The app will notify users about the weather information from Today to the next four days. The information includes:
 - Today date and overall temperature. 
