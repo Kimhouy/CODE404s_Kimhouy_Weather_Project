@@ -40,4 +40,4 @@ Please refer to [Git Flow Method](https://www.notion.so/Git-Flow-Method-4555db0d
 
 ## P.S. :
 - For this project, I did it follow through the "Modern React with Redux [2023 Update]" course of Udemy; mostly in section 5.
-- Other majority part of the project like choosing datas to be called to displayed, api id to the package of houly and daily forcasts, using loops and slice in javascript, and other related inquiries, I did research on some random sources on googles and recveieving assistances from my friends. 
+- Other majority part of the project like choosing datas to be called to displayed, api id to the package of houly and daily forcasts, using loops and slice in javascript, and other related inquiries, I did research on OpenWeather, on some random sources, and receiving assistances from my friends. 
