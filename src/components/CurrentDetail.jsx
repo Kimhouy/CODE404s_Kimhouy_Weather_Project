@@ -33,7 +33,7 @@ function CurrentDetail({ hourly, weather }) {
             </div>
             <div className="current-temperature">
                 <p className="sub-text2 sunrise">sunrise: {detailRise.toLocaleString('en-US', optionsDetail)}</p>
-                <img className="sub-image2" src="/weather-icons/sunrise.svg" alt="" />
+                <img className="sub-image2" src="/weather-icons/sunrise.svg"  />
                 <p className="sub-text2">sunset: {detailSet.toLocaleString('en-US', optionsDetail)}</p>
                 <img className="sub-image2" src="/weather-icons/sunset.svg" alt="" />
             </div>
