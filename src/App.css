@@ -2,10 +2,11 @@
 
 body {
     font-family: 'Alumni', sans-serif;
-    display: flex;
-    justify-content: center;
     color: white;
     background-color: black;
+    background-image: url('../public/weather-icons/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .all-components {
@@ -14,35 +15,40 @@ body {
     justify-content: center;
     align-items: center;
     width: 80%;
+    margin:auto;
 }
 
 .main-image {
-    width: 70%;
-    height: 70%;
-  }
-  
-  .sub-image1 {
+    width: 80%;
+    height: 80%;
+}
+
+.sub-image1 {
     width: 150px;
     height: 150px;
-  }
-  
-  .sub-image2 {
-  width: 40%;
-  height: 50%;
-  }
+}
+
+.sub-image2 {
+    width: 40%;
+    height: 50%;
+    margin: 0;
+}
 
 .area-section1 {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
 }
 
 .main-temperature {
-    font-size: 64px;
+    font-size: 100px;
     font-weight: 600;
+    padding: 0%;
+    margin: 0%;
 }
 
 .current-region {
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .area-section2 {
@@ -52,9 +58,9 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
-    margin-bottom: 7%;
+    margin-bottom: 5%;
     width: 1200px;
+    padding: 2%;
 }
 
 .current-temperature {
@@ -74,19 +80,20 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    gap: 15px;
 }
 
 .area-section3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1000px;
     gap: 30px;
-    margin-bottom: 10%;
-    width: 1200px;
+    width: 1248px;
 }
 
-.next-day {
+ .next-day1 {
     background-color: #8f8686;
     display: flex;
     flex-direction: column;
@@ -94,4 +101,33 @@ body {
     align-items: center;
     width: 25%;
     border-radius: 30px;
+    padding: 2%;
 }
+
+.next-day2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+}
+
+.detail-info {
+    margin-bottom: 15%;
+}
+
+.sub-text1 {
+    font-size: 24px;
+    margin-bottom: 0%;
+    margin-top: 3%;
+}
+
+.sub-text2 {
+    font-size: 20px;
+    margin: 0%;
+}
+
+.sun {
+    padding-top: 15%;
+}
+
+ 
