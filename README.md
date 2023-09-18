@@ -2,6 +2,7 @@
 * This project is initiated to encourage learning how to make real requests to see data, fetch data, and transform data to dispaly on the app, in the React project. 
 * This weather app provides access to forcasts that will help users to be alerted and informed about the changes in weather conditions;hence, the users can make decisons and deal with it accordingly. 
 
+Click "Demo App" below for viewing the app.
 # [Demo App](https://weather-host-sage.vercel.app/)
 
 ## 1. Project Overview
@@ -33,12 +34,10 @@ Please, refer to [App Flow](https://drive.google.com/file/d/1D1s1T0MiO3oGy50wger
 ## 6. Git Flow Method
 Please refer to [Git Flow Method](https://www.notion.so/Git-Flow-Method-4555db0de8294536b09411c195f9ee1d?pvs=4) for more detail.
 
-
-
 ## 7. Backlog
-- The current hour might be a little late that the actual hour becuase of real time hour data need time to be processing. 
+- The current hour might be a little lagger than the actual hour few minuttes. That's might be becuase of api data fetching needs time to be processing. 
 - The app is suitable for desktop only. 
 
 ## P.S. :
 - For this project, I did it follow through the "Modern React with Redux [2023 Update]" course of Udemy; mostly in section 5.
-- Other majority part of the project like choosing datas to be called to displayed, api id to the package of houly and daily forcasts, using loops and slice in javascript, and other related inquiries, i did research on some random sources on googles and recveieving some assistances from my friends. 
+- Other majority part of the project like choosing datas to be called to displayed, api id to the package of houly and daily forcasts, using loops and slice in javascript, and other related inquiries, I did research on some random sources on googles and recveieving assistances from my friends. 
