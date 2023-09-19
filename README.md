@@ -39,7 +39,8 @@ Please refer to [Git Flow Method](https://www.notion.so/Git-Flow-Method-4555db0d
 
 ## 7. Backlog
 - The current hour might be a little lagger than the actual hour few minuttes. That's might be becuase of api data fetching needs time to be processing. 
-- The app is suitable for desktop only. 
+- The app is suitable for desktop only.
+- To open the app, the user have to turn on the location. 
 
 ## P.S. :
 - For this project, I did it follow through the "Modern React with Redux [2023 Update]" course of Udemy; mostly in section 5.
