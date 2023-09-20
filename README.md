@@ -27,7 +27,7 @@ The app is implemented based on Vitejs and React framework, style with CSS and o
 - the weather conditions for the next four days as well.
 
 ## 3. Convention Guide
-Please, refer to [Convention Guide](https://www.notion.so/Convention-guide-94349826e0cb428fbe727f7f2945bdd9) for more detail.
+Please, refer to [Convention Guide](https://fresh-chiller-b75.notion.site/Weather-Project-Convention-guide-d463d6d018b3405fb9760d9505dd83b7?pvs=4) for more detail.
 
 ## 4. Figma UX/UI 
 Please, refer to [UX/UI Design](https://www.figma.com/file/RXA74djqfURdg2kllV8OtN/Untitled?type=design&mode=design&t=JyZVwbzneLrGzZQG-0) for more detail.
