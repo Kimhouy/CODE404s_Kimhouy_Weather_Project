@@ -7,6 +7,19 @@ body {
     background-image: url('../public/weather-icons/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gif-container {
+   position: absolute;
+   top: 20%;
+}
+
+.gif-displaying {
+    align-items: center;
+    width: 150px;
+    height: 150px;
 }
 
 .all-components {
