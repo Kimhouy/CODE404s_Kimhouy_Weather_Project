@@ -6,8 +6,8 @@ function FutureWeather({ forecastDaily }) {
     const optionsFuture = { timeZone: userFutureTimezone, year: 'numeric', month: 'long', day: 'numeric' }
     
     return (
-        <div className='next-day1'>
-            <div className='next-day2'>
+        <div className="next-day1">
+            <div className="next-day2">
                 <p className="sub-text1">{futureDate.toLocaleString('en-US', optionsFuture)}</p>
                 <img className="main-image"src={`./weather-icons/${forecastDaily.weather[0].icon}.svg`} alt="" />
                 <p className="sub-text1">{forecastDaily.weather[0].description}</p>

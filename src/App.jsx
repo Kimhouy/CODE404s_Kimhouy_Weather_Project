@@ -1,16 +1,16 @@
-import { useState, useEffect } from 'react';
-import './App.css';
+import { useState, useEffect } from "react";
+import "./App.css";
 import { useGeolocated } from "react-geolocated";
 import axios from "axios";
-import FutureWeather from './components/FutureWeather';
-import CurrentWeather from './components/CurrentWeather';
-import CurrentDetail from './components/CurrentDetail';
+import FutureWeather from "./components/FutureWeather";
+import CurrentWeather from "./components/CurrentWeather";
+import CurrentDetail from "./components/CurrentDetail";
 
 function App() {
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [latitude, setLatitude] = useState('11.5564') // default in Phnom Penh
-  const [longitude, setLongitude] = useState('104.9282')
+  const [latitude, setLatitude] = useState("11.5564") // default in Phnom Penh
+  const [longitude, setLongitude] = useState("104.9282")
   const [weather, setWeather] = useState({});
   const [forecast, setForecast] = useState([]);
   const [forecastDaily, setForecastDaily] = useState([]);
@@ -60,6 +60,21 @@ function App() {
 
   return (
     <>
+      {loading && (
+        <div className="gif-container">
+          <div><img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXg5czZoZW9vOTVvYzI0a3VweXl0MmN4azg5OHN2MjBvazdyaTBzYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/SXiZmLGY9AwCbgtx6j/giphy.gif" className="gif-displaying" alt="GIF" /></div>
+          <div>Loading data ...</div>
+        </div>
+      )}
+
+      {error && (
+        <div className="gif-container">
+          <img src="https://media2.giphy.com/media/FYUnDtud95kMKCovAY/giphy.gif?cid=ecf05e47rk8f7eeiveakfknhqud35fplgjk6p1ugigbn4zeb&ep=v1_gifs_search&rid=giphy.gif&ct=g" className="gif-displaying" alt="GIF" />
+          <p>Error fetching data...</p>
+        </div>
+      )}
+
+
       <div className="all-components">
 
         {weather?.main && (
